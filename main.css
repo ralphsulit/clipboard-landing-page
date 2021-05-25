@@ -36,6 +36,29 @@ Colors
 }
 
 /* ****************** 
+General
+****************** */
+h3 {
+  margin-top: 40px;
+  padding: 0 40px;
+  line-height: 30px;
+}
+
+h6 {
+  color:hsla(201, 11%, 66%, 60%);
+  margin: 10px 0 30px 0;
+  line-height: 20px;
+  padding: 0 30px;
+}
+
+img {
+  width: 230px;
+  height: 180px;
+  margin: 20px 0 40px 0;
+}
+
+
+/* ****************** 
 Container
 ****************** */
 .container {
@@ -80,7 +103,7 @@ Buttons
 
 
 /* ****************** 
-Header 
+Top Container
 ****************** */
 .top-container {
   display: flex;
@@ -90,17 +113,12 @@ Header
   text-align: center;
 }
 
-.top-container h3 {
-  margin-top: 40px;
-  padding: 0 40px;
-  line-height: 30px;
-}
-
-.top-container h6 {
-  color:hsla(201, 11%, 66%, 60%);
-  margin: 10px 0 30px 0;
-  line-height: 20px;
-  padding: 0 30px;
+/* ****************** 
+Mid Container
+****************** */
+.mid-container {
+  text-align: center;
+  margin: 100px 0;
 }
 
 
