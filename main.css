@@ -226,3 +226,160 @@ Footer
   height: 20px;
   margin: 30px 15px;
 }
+
+
+/* ****************** 
+Media Query:
+Desktop
+****************** */
+@media (min-width: 1440px) {
+  /* ****************** 
+  General
+  ****************** */
+  body {
+    background: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  h3 {
+    font-size: 1.4em;
+  }
+
+  h6 {
+    color:hsla(201, 11%, 66%, 60%);
+    margin: 20px 0 30px 0;
+    line-height: 20px;
+    padding: 0 30px;
+  }
+
+  img {
+    width: 752px;
+    height: 572px;
+    margin: 20px 0 40px 0;
+  }
+
+  .container {
+    width: 1440px;
+    font-size: 1.3em;
+  }
+
+  .top-container {
+    width: 620px;
+    margin: 0 auto;
+  }
+
+  /* ****************** 
+  Buttons
+  ****************** */
+  .buttons {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
+  }
+
+  .buttons button {
+    padding: 12px 30px;
+  }
+
+  /* ****************** 
+  Mid Container
+  ****************** */
+  .mid-container {
+    margin: 100px auto;
+  }
+
+  .mid-container h6 {
+    width: 700px;
+    margin: 30px auto;
+    line-height: 30px;
+  }
+
+  .mid-content {
+    text-align: left;
+    margin-left: 100px;
+  }
+
+  .mid-content h6 {
+    padding: 0;
+    width: 340px;
+  }
+
+  .mid-container-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .mid-container-content img {
+    margin-left: -310px;
+  }
+
+  /* ****************** 
+  Mid Container 2
+  ****************** */
+  .mid-container-2 {
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .mid-container-2 img {
+    width: 700px;
+    height: 480px;
+  }
+
+  /* ****************** 
+  Lower Container
+  ****************** */
+  .tools {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .tools h6 {
+    width: 490px;
+    line-height: 25px;
+  }
+
+  /* ****************** 
+  Brands
+  ****************** */
+  .brands {
+    margin: 80px auto;
+    width: 900px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  /* ****************** 
+  Last Section
+  ****************** */
+  .last-section {
+    width: 700px;
+    margin: 100px auto;
+  }
+
+  .last-section h6 {
+    line-height: 25px;
+  }
+
+  .last-section .buttons {
+    margin: 0 auto;
+  }
+
+  /* ****************** 
+  Footer
+  ****************** */
+  #footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer-links {
+    width: 500px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
